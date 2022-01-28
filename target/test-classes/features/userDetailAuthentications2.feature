@@ -2,14 +2,14 @@
 Feature: API Authentication
 
   Background:
-    * url 'https://reqres.in/api/register'
+    * url 'https://reqres.in/api/registergit '
 
   Scenario: Authentication test
     * def params =
     """
       {
-        'email' : 'eve.holt@reqres.in',
-        'password' : 'pistol'
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
       }
     """
 
